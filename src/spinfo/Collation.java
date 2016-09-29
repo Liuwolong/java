@@ -1,4 +1,4 @@
-/** Copyright 2011 Fabian Steeg, University of Cologne, http://github.com/spinfo */
+﻿/** Copyright 2011 Fabian Steeg, University of Cologne, http://github.com/spinfo */
 
 package spinfo;
 
@@ -96,7 +96,7 @@ public class Collation {
   }
 
   static class Word implements Comparable<Word> {
-
+	System.out.println("--------------------aaa------------------");
     private String val;
     private Collator collator = Collator.getInstance(); // uses system locale
     private CollationKey key;
